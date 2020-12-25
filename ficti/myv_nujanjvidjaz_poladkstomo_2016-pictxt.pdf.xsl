@@ -20,6 +20,7 @@
     -->
     <xsl:variable name="author1_fn" select="'Нуянь'"/>
     <xsl:variable name="author1_ln" select="'Видяз'"/>
+    <!-- Евгений Четвергов -->
     <!-- m, f or unknown -->
     <xsl:variable name="author1_gender" select="'m'"/>
     <!--
@@ -27,9 +28,9 @@
         an ISO_3166-1 code.
         https://no.wikipedia.org/wiki/ISO_3166-1
     -->
-    <xsl:variable name="author1_nat" select="''"/>
+    <xsl:variable name="author1_nat" select="'RUS'"/>
     <!-- Either YYYY or YYYYMMDD. Examples: 1954 or 19451224 -->
-    <xsl:variable name="author1_born" select="''"/>
+    <xsl:variable name="author1_born" select="'19340330'"/>
     <!--
         Information of the second author: first name, last name,
         date or year of birth, nationality.
@@ -75,9 +76,9 @@
     <xsl:variable name="publChannel" select="''"/>
     <!-- Publication year -->
     <xsl:variable name="year" select="'2016'"/>
-    <xsl:variable name="ISBN" select="''"/>
+    <xsl:variable name="ISBN" select="'978-5-7493-1702-2'"/>
     <xsl:variable name="ISSN" select="''"/>
-    <xsl:variable name="place" select="''"/>
+    <xsl:variable name="place" select="'Saransk'"/>
 
     <!-- Automatically filled in by CorpusTools -->
     <xsl:variable name="genre" select="'ficti'"/>
